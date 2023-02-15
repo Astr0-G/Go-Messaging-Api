@@ -12,7 +12,7 @@
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         // Create a WebSocket connection to the chat room
-        const socket = new WebSocket("ws://localhost:8080/chat");
+        const socket = new WebSocket("ws://chatapi.gewang.wiki:8080/chat");
 
         // Handle incoming messages from the server
         socket.onmessage = (event) => {
